@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [yahoomail]">
+  <parameter name="framework" value="fw_base/GFXSite.htm"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="EnvironmentDataFile" value="environments.json"/>
+  <parameter name="Environment" value="UAT"/>
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="com.rachel.yahoo.tests.LoginYahooTest">
+        <methods>
+          <include name="suiteCleanUp"/>
+          <include name="suiteSetup"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Login" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.rachel.yahoo.tests.LoginYahooTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [yahoomail] -->

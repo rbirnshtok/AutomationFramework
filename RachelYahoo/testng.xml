@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="yahoomail">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="Environment" value="UAT"/>
+	<parameter name="EnvironmentDataFile" value="environments.json"/>
+	<parameter name="framework" value="fw_base/GFXSite.htm"/>
+	<test name="testngTest">
+		<classes>
+			<class name="com.rachel.yahoo.tests.LoginYahooTest" />
+			<!-- <class name="com.rachel.yahoo.tests.SearchEmailWithSubjectTest" /> -->
+		</classes>
+	</test>
+</suite>

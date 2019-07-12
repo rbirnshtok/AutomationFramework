@@ -1,0 +1,16 @@
+{
+	"UAT": {
+		"url": "https://mail.yahoo.com/",
+		"users": {
+			"admin": {
+				"username": "someone@yahoo.com",
+				"password": "InvalidPass"
+			},
+			"agent": {
+				"username": "ag",
+				"password": "ag"
+			}
+		}
+	},
+	"IT": {}
+}
